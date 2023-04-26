@@ -1,0 +1,49 @@
+class dicertor:
+
+
+ university_name = "Golden"
+
+  def __init__(self, name, years_of_service, department, disposition, field, office, gender, managing_the_university, manage_the_schedule):
+     
+    self.name = name
+    self.years_of_service = years_of_service
+    self.department = department
+    self.disposition = disposition
+    self.field = field
+    self.office = office
+    self.gender = gender
+    self.managing_the_university = managing_the_university
+    self.manage_the_schedule = manage_the_schedule
+
+
+  def get_name(self):
+      return self.name
+
+  def get_years_of_service(self):
+      return self.years_of_service
+
+  def get_department(self):
+      return self.department
+
+  def get_disposition(self):
+      return self.disposition
+
+  def get_field(self):
+      return self.field
+
+  def get_office(self):
+      return self.office
+
+ def get_gender (self):
+     return self.gender
+
+ def get_managing_the_university (self):
+     return self.managing_the_university
+
+ def get_manage_the_schedule (self):
+     return self.manage_the_schedule
+
+
+
+
+

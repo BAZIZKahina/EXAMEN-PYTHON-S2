@@ -1,0 +1,38 @@
+class perspectives:
+
+ university_name ="Golden"
+  
+
+  def __init__ (self, first_name, last_name, email, phone_numbre, address):
+    self.firft_name = firft_name
+    self.last_name = last_name
+    self.email = email
+    self.phone_numbre = phone_numbre
+    self.address = address
+
+
+  def get_firstname (self):
+      return self.firstname
+
+  def get_last_name (self):
+      return self.last_name
+
+  def get_email (self):
+    return self.email
+
+  def get_phone_numbre (self):
+     return self.phone_number
+
+  def get_address (self):
+      return self.address
+
+
+
+
+
+
+
+
+
+
+
